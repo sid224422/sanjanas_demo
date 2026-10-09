@@ -5,7 +5,13 @@ Files:
 - advanced.html: multi-section premium concept with a WhatsApp appointment enquiry form
 
 HOW TO PREVIEW:
-Open either HTML file in a browser. Internet is needed for the stock images.
+Open index.html in a browser for the advanced demo, or open basic.html directly. Internet is needed for the stock images.
+
+DEPLOY TO VERCEL:
+- Import this folder/repository and set the project Root Directory to the folder containing index.html.
+- Select the Other framework preset; this is a plain static HTML site and needs no build command.
+- If Vercel asks for an Output Directory, set it to . (the project root).
+- Deploy. The root URL opens index.html, which forwards visitors to advanced.html. basic.html remains available at /basic.html.
 
 IMPORTANT BEFORE SHOWING/LAUNCHING:
 - These are demo concepts, not published websites.
